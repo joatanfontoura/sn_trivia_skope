@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_trivia_spoke</internal_name>
+        <label_cache>[{"name":"ba29e599-2102-4e5a-8a2b-a687f7c7c1cc.question_id","label":"1 - Get Trivia Question➛Question ID","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"3b5c71b6-aff2-467e-a7e0-a8dd90467d64"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Trivia Spoke</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 14:30:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b0a4ec02f488a108609f3ecf699b644</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Test Trivia Spoke</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN Trivia Spoke" source="x_691012_sn_trivia">731686cc2f088a108609f3ecf699b688</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Trivia Spoke">731686cc2f088a108609f3ecf699b688</sys_scope>
+        <sys_update_name>sys_hub_flow_9b0a4ec02f488a108609f3ecf699b644</sys_update_name>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 16:55:55</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9b0a4ec02f488a108609f3ecf699b644^sys_idNOT IN43ba4e842f488a108609f3ecf699b662"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">9b0a4ec02f488a108609f3ecf699b644</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 14:33:49</sys_created_on>
+        <sys_id>43ba4e842f488a108609f3ecf699b662</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 16:55:55</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43ba4e842f488a108609f3ecf699b662"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>43ba4e842f488a108609f3ecf699b662</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 14:33:49</sys_created_on>
+        <sys_id>87ba4e842f488a108609f3ecf699b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 14:33:49</sys_updated_on>
+        <value>2024-01-25 12:00:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=43ba4e842f488a108609f3ecf699b662"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9b0a4ec02f488a108609f3ecf699b644^sys_idNOT INdb0a4ec02f488a108609f3ecf699b646"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9b0a4ec02f488a108609f3ecf699b644</id>
+        <name>Test Trivia Spoke</name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 14:30:51</sys_created_on>
+        <sys_id>db0a4ec02f488a108609f3ecf699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 14:30:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=db0a4ec02f488a108609f3ecf699b646"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9b0a4ec02f488a108609f3ecf699b644^sys_idNOT IN144b6a4c2fc88a108609f3ecf699b607,cbba4e842f488a108609f3ecf699b66d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Trivia Answer">f43a62842fc88a108609f3ecf699b635</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">9b0a4ec02f488a108609f3ecf699b644</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 16:55:55</sys_created_on>
+        <sys_id>144b6a4c2fc88a108609f3ecf699b607</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">731686cc2f088a108609f3ecf699b688</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 16:55:55</sys_updated_on>
+        <ui_id>3b86484e-77a0-4c5c-b730-22dfb910b11f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=144b6a4c2fc88a108609f3ecf699b607"/>
+    <sys_element_mapping action="delete_multiple" query="id=144b6a4c2fc88a108609f3ecf699b607"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>question_id</field>
+        <id>144b6a4c2fc88a108609f3ecf699b607</id>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 16:55:55</sys_created_on>
+        <sys_id>1c4b6a4c2fc88a108609f3ecf699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 16:55:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f43a62842fc88a108609f3ecf699b635</table>
+        <value>{{ba29e599-2102-4e5a-8a2b-a687f7c7c1cc.question_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=144b6a4c2fc88a108609f3ecf699b607"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=144b6a4c2fc88a108609f3ecf699b607"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Trivia Question">a78706802f488a108609f3ecf699b6d3</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Trivia Spoke">9b0a4ec02f488a108609f3ecf699b644</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>joatan</sys_created_by>
+        <sys_created_on>2024-01-25 14:33:50</sys_created_on>
+        <sys_id>cbba4e842f488a108609f3ecf699b66d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="SN Trivia Spoke">731686cc2f088a108609f3ecf699b688</sys_scope>
+        <sys_updated_by>joatan</sys_updated_by>
+        <sys_updated_on>2024-01-25 16:55:55</sys_updated_on>
+        <ui_id>ba29e599-2102-4e5a-8a2b-a687f7c7c1cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cbba4e842f488a108609f3ecf699b66d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cbba4e842f488a108609f3ecf699b66d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cbba4e842f488a108609f3ecf699b66d"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9b0a4ec02f488a108609f3ecf699b644"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9b0a4ec02f488a108609f3ecf699b644"/>
+</record_update>
